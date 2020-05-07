@@ -23,4 +23,44 @@ vertical-align: baseline;
 * {
     box-sizing: border-box;
     border: dotted 1px;
+    font-family: 'Crushed', cursive;
+    max-width: 100%;
+}
+
+#home h1 {
+font-size: 50px;
+}
+
+
+.links a {
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+
+}
+
+#bio {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: pink;
+}
+
+#container {
+    background-color: white;
+    
+}
+
+.piccontainer {
+    display: flex;
+    flex-direction: flex-start;
+    align-items: flex-start;
+
+}
+section img {
+    width: 200px;
 }

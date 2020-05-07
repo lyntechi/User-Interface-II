@@ -1,1 +1,200 @@
 /* Add CSS styling here */
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;   
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing: border-box;
+  
+    max-width: 100%;
+}
+
+#home {
+    background-color: teal;
+    height: ;
+    
+}
+
+#home h1 {
+font-size: 45px;
+color: turquoise;
+font-family: 'Sacramento', cursive;
+margin: 20px;
+}
+
+
+
+
+
+nav.links  {
+    font-size: 25px;
+    text-decoration: none;
+    color: turquoise;
+    font-family: 'Sacramento', cursive;
+    display: flex;
+margin-left: 20px;
+    
+    
+}
+
+nav.links a {
+
+background-color: grey;
+text-decoration: none;
+border: solid 5px purple;
+
+}
+
+
+
+section.bio {
+    display: flex;
+    flex-direction: row;
+
+	  justify-content: space-between;
+} 
+
+
+div.aboutme {
+    display: flex;
+     flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px;
+      margin-right: 80px;
+      
+      text-align: center; 
+  }
+
+
+.aboutme h2 {
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Sacramento', cursive;
+    
+    
+    
+}
+.aboutme button {
+    margin: 10px;
+    color: lightskyblue;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+.aboutme p {
+    background-color: #AFEEEE;
+    border-radius: 15px ;
+    font-family: 'Sacramento', cursive;;
+   padding: 20px;
+}
+body {
+    background-color:whitesmoke;
+}
+
+
+
+section img {
+    width: 425px;
+    position: relative;
+    border-radius: 15px;
+    
+}
+
+div.selfie {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: flex-start;
+
+}
+
+.firstrow img {
+    width: 300px ;
+    height: 300px;
+    
+    }
+
+    div.firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .secondrow img {
+        width: 300px;
+        height: 300px;
+    }
+
+    
+    div.secondrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+footer {
+    background-color: teal;
+  
+}
+
+footer h3 {
+font-size: 2rem;
+color: turquoise;
+}
+
+
+footer  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+div.contactme button {
+    padding: 10px;
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+    
+    
+    
+}
+
+.contactme a {
+    padding: 5px;
+    border-radius: 20px;
+    color: green;
+    font-weight: bold;
+    background-color: lightgreen;
+    margin: 6px;
+    
+}
+
+
+
+
+

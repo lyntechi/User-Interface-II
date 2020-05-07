@@ -5,7 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+
+.firstrow img {
+    width: 300px ;
+    height: 300px;
+    
+    }
+
+    div.firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .secondrow img {
+        width: 300px;
+        height: 300px;
+    }
+
+    
+    div.secondrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    h1 {
+        text-decoration: underline;
+     
+    }
+
+    body {
+        background-color: #B0E0E6;
+    }
+    .about {
+            background-color: turquoise;
+            height: 100vh;
+            padding: 30px;
+            border: solid 50px ;
+            position: sticky;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            
+        }
+
+        img {
+            transition: all 0.4s;
+            top: 0px;
+            bottom: 0px;
+
+        }
+        img:hover {
+            position: relative;
+            top: 20px;
+            bottom: 20px;
+            border: solid 10px plum;
+        }
+</style>
+
 <body>
-    <h1> PROJECTS </h1>
+
+    <div class="links">
+        <a href="index.html">Home</a>   
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>   
+   
+       </div>
+    <center><h1> MORE PROJECTS </h1></center>
+
+
+    
+<section>
+    <div class="firstrow">
+        <img src="My pictures/blue flowers.jpg">
+        <img src="My pictures/colorful sky.jpg">
+        <img src="My pictures/fallen tree.jpg">
+        <img src="My pictures/feathers.jpg">
+    
+    </div>
+    
+    
+    </section>
+    
+    <section>
+        <div class="secondrow">
+            <img src="My pictures/middle of no where.jpg">
+            <img src="My pictures/mountain.jpg">
+            <img src="My pictures/ocean.jpg">
+            <img src="My pictures/smoke.jpg">
+        
+        
+        
+        </section>
+    
+    
+    
 </body>
 </html>
